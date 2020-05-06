@@ -96,8 +96,8 @@ class Board extends React.Component {
     // }
     const size = this.props.size;
     const dim = this.props.dimention;
-    if (size == 4) {
-      if (dim == 2) {
+    if (size === 4) {
+      if (dim === 2) {
         return (
           <div>
             {/* <div className="status">{status}</div> */}
@@ -246,7 +246,7 @@ class Board extends React.Component {
       }
       
     } else {
-      if (dim == 2) {
+      if (dim === 2) {
         return (
           <div>
             {/* <div className="status">{status}</div> */}
@@ -336,8 +336,8 @@ class Board extends React.Component {
 function calculateWinner(squares) {
   const size = squares.length;
   let lines;
-  if (size == 16 || size == 64) {
-    if (size == 16) {
+  if (size === 16 || size === 64) {
+    if (size === 16) {
       lines = [
         [0, 1, 2, 3],
         [4, 5, 6, 7],
@@ -444,14 +444,14 @@ function calculateWinner(squares) {
     
     for (let i = 0; i < lines.length; i++) {
       const [a, b, c, d] = lines[i];
-      if (squares[a] && squares[a] == squares[b] && squares[a] == squares[c] && squares[a] == squares[d]) {
+      if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c] && squares[a] === squares[d]) {
         return squares[a];
       }
     }
     return null;
 
   } else {
-    if (size == 9) {
+    if (size === 9) {
       lines = [
         [0, 1, 2],
         [3, 4, 5],
@@ -534,7 +534,7 @@ function calculateWinner(squares) {
     
     for (let i = 0; i < lines.length; i++) {
       const [a, b, c] = lines[i];
-      if (squares[a] && squares[a] == squares[b] && squares[a] == squares[c]) {
+      if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
         return squares[a];
       }
     }
@@ -576,7 +576,7 @@ class Game extends React.Component {
   jumpTo(step) {
     this.setState({
       stepNumber: step,
-      xIsNext: (step % 2) == 0,
+      xIsNext: (step % 2) === 0,
     });
   }
 
