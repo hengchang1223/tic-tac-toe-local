@@ -21,10 +21,10 @@ ol, ul {
   background: #fff;
 	border:1px solid black;
   float: left;
-  font-size: 24px;
+  font-size: 1.8vw;
   font-weight: bold;
-	width: 50px;
-	height: 30px;
+	width: 4vw;
+	height: 2.4vw;
   transform: skew(-45deg);
   text-align: center;
 }
@@ -33,15 +33,15 @@ ol, ul {
   background: #fff;
   border: 1px solid black;
   float: left;
-  font-size: 24px;
+  font-size: 6vw;
   font-weight: bold;
-  line-height: 34px;
-  height: 34px;
+  line-height: 3vw;
+  height: 6vw;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 6vw;
 }
 
 .square:focus {

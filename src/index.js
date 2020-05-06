@@ -96,8 +96,8 @@ class Board extends React.Component {
     // }
     const size = this.props.size;
     const dim = this.props.dimention;
-    if (size === 4) {
-      if (dim === 2) {
+    if (size == 4) {
+      if (dim == 2) {
         return (
           <div>
             {/* <div className="status">{status}</div> */}
@@ -132,25 +132,25 @@ class Board extends React.Component {
           <div>
             <div>
               {/* <div className="status">{status}</div> */}
-              <div className="board-row" style={{ marginLeft: 120 }}>
+              <div className="board-row" style={{ marginLeft: '7.2vw' }}>
                 {this.renderDiamond(0)}
                 {this.renderDiamond(1)}
                 {this.renderDiamond(2)}
                 {this.renderDiamond(3)}
               </div>
-              <div className="board-row" style={{ marginLeft: 90 }}>
+              <div className="board-row" style={{ marginLeft: '4.8vw' }}>
                 {this.renderDiamond(4)}
                 {this.renderDiamond(5)}
                 {this.renderDiamond(6)}
                 {this.renderDiamond(7)}
               </div>
-              <div className="board-row" style={{ marginLeft: 60 }}>
+              <div className="board-row" style={{ marginLeft: '2.4vw' }}>
                 {this.renderDiamond(8)}
                 {this.renderDiamond(9)}
                 {this.renderDiamond(10)}
                 {this.renderDiamond(11)}
               </div>
-              <div className="board-row" style={{ marginLeft: 30 }}>
+              <div className="board-row" style={{ marginLeft: '0vw' }}>
                 {this.renderDiamond(12)}
                 {this.renderDiamond(13)}
                 {this.renderDiamond(14)}
@@ -160,53 +160,53 @@ class Board extends React.Component {
             <br></br>
             <div>
               {/* <div className="status">{status}</div> */}
-              <div className="board-row" style={{ marginLeft: 120 }}>
+              <div className="board-row" style={{ marginLeft: '7.2vw' }}>
                 {this.renderDiamond(16)}
                 {this.renderDiamond(17)}
                 {this.renderDiamond(18)}
                 {this.renderDiamond(19)}
               </div>
-              <div className="board-row" style={{ marginLeft: 90 }}>
+              <div className="board-row" style={{ marginLeft: '4.8vw' }}>
                 {this.renderDiamond(20)}
                 {this.renderDiamond(21)}
                 {this.renderDiamond(22)}
                 {this.renderDiamond(23)}
               </div>
-              <div className="board-row" style={{ marginLeft: 60 }}>
+              <div className="board-row" style={{ marginLeft: '2.4vw' }}>
                 {this.renderDiamond(24)}
                 {this.renderDiamond(25)}
                 {this.renderDiamond(26)}
                 {this.renderDiamond(27)}
               </div>
-              <div className="board-row" style={{ marginLeft: 30 }}>
+              <div className="board-row" style={{ marginLeft: '0vw' }}>
                 {this.renderDiamond(28)}
                 {this.renderDiamond(29)}
-                {this.renderDiamond(30)}
+                {this.renderDiamond('0vw')}
                 {this.renderDiamond(31)}
               </div>
             </div>
             <br></br>
             <div>
               {/* <div className="status">{status}</div> */}
-              <div className="board-row" style={{ marginLeft: 120 }}>
+              <div className="board-row" style={{ marginLeft: '7.2vw' }}>
                 {this.renderDiamond(32)}
                 {this.renderDiamond(33)}
                 {this.renderDiamond(34)}
                 {this.renderDiamond(35)}
               </div>
-              <div className="board-row" style={{ marginLeft: 90 }}>
+              <div className="board-row" style={{ marginLeft: '4.8vw' }}>
                 {this.renderDiamond(36)}
                 {this.renderDiamond(37)}
                 {this.renderDiamond(38)}
                 {this.renderDiamond(39)}
               </div>
-              <div className="board-row" style={{ marginLeft: 60 }}>
+              <div className="board-row" style={{ marginLeft: '2.4vw' }}>
                 {this.renderDiamond(40)}
                 {this.renderDiamond(41)}
                 {this.renderDiamond(42)}
                 {this.renderDiamond(43)}
               </div>
-              <div className="board-row" style={{ marginLeft: 30 }}>
+              <div className="board-row" style={{ marginLeft: '0vw' }}>
                 {this.renderDiamond(44)}
                 {this.renderDiamond(45)}
                 {this.renderDiamond(46)}
@@ -216,26 +216,26 @@ class Board extends React.Component {
             <br></br>
             <div>
               {/* <div className="status">{status}</div> */}
-              <div className="board-row" style={{ marginLeft: 120 }}>
+              <div className="board-row" style={{ marginLeft: '7.2vw' }}>
                 {this.renderDiamond(48)}
                 {this.renderDiamond(49)}
                 {this.renderDiamond(50)}
                 {this.renderDiamond(51)}
               </div>
-              <div className="board-row" style={{ marginLeft: 90 }}>
+              <div className="board-row" style={{ marginLeft: '4.8vw' }}>
                 {this.renderDiamond(52)}
                 {this.renderDiamond(53)}
                 {this.renderDiamond(54)}
                 {this.renderDiamond(55)}
               </div>
-              <div className="board-row" style={{ marginLeft: 60 }}>
+              <div className="board-row" style={{ marginLeft: '2.4vw' }}>
                 {this.renderDiamond(56)}
                 {this.renderDiamond(57)}
                 {this.renderDiamond(58)}
                 {this.renderDiamond(59)}
               </div>
-              <div className="board-row" style={{ marginLeft: 30 }}>
-                {this.renderDiamond(60)}
+              <div className="board-row" style={{ marginLeft: '0vw' }}>
+                {this.renderDiamond('2.4vw')}
                 {this.renderDiamond(61)}
                 {this.renderDiamond(62)}
                 {this.renderDiamond(63)}
@@ -246,7 +246,7 @@ class Board extends React.Component {
       }
       
     } else {
-      if (dim === 2) {
+      if (dim == 2) {
         return (
           <div>
             {/* <div className="status">{status}</div> */}
@@ -272,17 +272,17 @@ class Board extends React.Component {
           <div>
             <div>
               {/* <div className="status">{status}</div> */}
-              <div className="board-row" style={{ marginLeft: 90 }}>
+              <div className="board-row" style={{ marginLeft: '4.8vw' }}>
                 {this.renderDiamond(0)}
                 {this.renderDiamond(1)}
                 {this.renderDiamond(2)}
               </div>
-              <div className="board-row" style={{ marginLeft: 60 }}>
+              <div className="board-row" style={{ marginLeft: '2.4vw' }}>
                 {this.renderDiamond(3)}
                 {this.renderDiamond(4)}
                 {this.renderDiamond(5)}
               </div>
-              <div className="board-row" style={{ marginLeft: 30 }}>
+              <div className="board-row" style={{ marginLeft: '0vw' }}>
                 {this.renderDiamond(6)}
                 {this.renderDiamond(7)}
                 {this.renderDiamond(8)}
@@ -291,17 +291,17 @@ class Board extends React.Component {
             <br></br>
             <div>
               {/* <div className="status">{status}</div> */}
-              <div className="board-row" style={{ marginLeft: 90 }}>
+              <div className="board-row" style={{ marginLeft: '4.8vw' }}>
                 {this.renderDiamond(9)}
                 {this.renderDiamond(10)}
                 {this.renderDiamond(11)}
               </div>
-              <div className="board-row" style={{ marginLeft: 60 }}>
+              <div className="board-row" style={{ marginLeft: '2.4vw' }}>
                 {this.renderDiamond(12)}
                 {this.renderDiamond(13)}
                 {this.renderDiamond(14)}
               </div>
-              <div className="board-row" style={{ marginLeft: 30 }}>
+              <div className="board-row" style={{ marginLeft: '0vw' }}>
                 {this.renderDiamond(15)}
                 {this.renderDiamond(16)}
                 {this.renderDiamond(17)}
@@ -310,17 +310,17 @@ class Board extends React.Component {
             <br></br>
             <div>
               {/* <div className="status">{status}</div> */}
-              <div className="board-row" style={{ marginLeft: 90 }}>
+              <div className="board-row" style={{ marginLeft: '4.8vw' }}>
                 {this.renderDiamond(18)}
                 {this.renderDiamond(19)}
                 {this.renderDiamond(20)}
               </div>
-              <div className="board-row" style={{ marginLeft: 60 }}>
+              <div className="board-row" style={{ marginLeft: '2.4vw' }}>
                 {this.renderDiamond(21)}
                 {this.renderDiamond(22)}
                 {this.renderDiamond(23)}
               </div>
-              <div className="board-row" style={{ marginLeft: 30 }}>
+              <div className="board-row" style={{ marginLeft: '0vw' }}>
                 {this.renderDiamond(24)}
                 {this.renderDiamond(25)}
                 {this.renderDiamond(26)}
@@ -336,8 +336,8 @@ class Board extends React.Component {
 function calculateWinner(squares) {
   const size = squares.length;
   let lines;
-  if (size === 16 || size === 64) {
-    if (size === 16) {
+  if (size == 16 || size == 64) {
+    if (size == 16) {
       lines = [
         [0, 1, 2, 3],
         [4, 5, 6, 7],
@@ -444,14 +444,14 @@ function calculateWinner(squares) {
     
     for (let i = 0; i < lines.length; i++) {
       const [a, b, c, d] = lines[i];
-      if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c] && squares[a] === squares[d]) {
+      if (squares[a] && squares[a] == squares[b] && squares[a] == squares[c] && squares[a] == squares[d]) {
         return squares[a];
       }
     }
     return null;
 
   } else {
-    if (size === 9) {
+    if (size == 9) {
       lines = [
         [0, 1, 2],
         [3, 4, 5],
@@ -534,7 +534,7 @@ function calculateWinner(squares) {
     
     for (let i = 0; i < lines.length; i++) {
       const [a, b, c] = lines[i];
-      if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
+      if (squares[a] && squares[a] == squares[b] && squares[a] == squares[c]) {
         return squares[a];
       }
     }
@@ -576,7 +576,7 @@ class Game extends React.Component {
   jumpTo(step) {
     this.setState({
       stepNumber: step,
-      xIsNext: (step % 2) === 0,
+      xIsNext: (step % 2) == 0,
     });
   }
 
@@ -639,8 +639,12 @@ class Game extends React.Component {
           <button onClick={() => this.changeDimention(2)}>2D</button>
           <button onClick={() => this.changeDimention(3)}>3D</button>
         </li>
-        
-      
+        <br></br>
+        <div className="game-info">
+            <div>{status}</div>
+            {/* <ol>{moves}</ol> */}
+          </div>
+        <br></br>
         <div className="game">
           <div className="game-board">
             <Board 
@@ -649,10 +653,6 @@ class Game extends React.Component {
               squares = {current.squares}
               onClick = {(i) => this.handleClick(i)}
             />
-          </div>
-          <div className="game-info">
-            <div>{status}</div>
-            <ol>{moves}</ol>
           </div>
         </div>
       </div>
