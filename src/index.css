@@ -13,6 +13,10 @@ ol, ul {
   display: table;
 }
 
+.game-board{
+  margin: auto;
+}
+
 .status {
   margin-bottom: 10px;
 }
@@ -58,5 +62,7 @@ ol, ul {
 }
 
 .game-info {
-  margin-left: 20px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
